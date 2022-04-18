@@ -20,22 +20,21 @@ public class main {
 		System.out.println(pessoa2.nome);
 		System.out.println(pessoa2.numFigurinhas);
 		 
-		pessoa1.dar(5, pessoa2);
+		boolean retorno = pessoa1.dar(2, pessoa2);
 		
-		System.out.println("depois");
+	if(retorno == true) {
+			
 		
-		System.out.println(pessoa1.nome);
-		System.out.println(pessoa1.numFigurinhas);
+		
+			System.out.println("depois");
+		
+			System.out.println(pessoa1.nome);
+			System.out.println(pessoa1.numFigurinhas);
 
-		System.out.println(pessoa2.nome);
-		System.out.println(pessoa2.numFigurinhas);
-		
-		
-		
-		
-		
-		
-		
+			System.out.println(pessoa2.nome);
+			System.out.println(pessoa2.numFigurinhas);
+			
+		}
 
 	}
 

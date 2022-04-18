@@ -9,10 +9,10 @@ public class Pessoa {
 	}
 	
 	boolean dar(int numFigurinhas, Pessoa pessoa) {
-		//boolean retorno, forma de retornar uma msg
+		
 		if (this.numFigurinhas<numFigurinhas) {
-		System.out.println("Você não tem o numero de figurinhas suficiente para realizar esta ação ");
-		//retorn = false; - mesmo metodo do acima
+			System.out.println("Você não tem o numero de figurinhas suficiente para realizar esta ação ");
+			//retorno falso
 		
 		return false; 
 			
@@ -21,9 +21,11 @@ public class Pessoa {
 		else {
 			this.numFigurinhas -= numFigurinhas;
 			pessoa.receber(numFigurinhas);
-			//return = true 
+			
+			
 			return true;
 		}
+		//retorno verdadeiro 
 		}
 		
 }
