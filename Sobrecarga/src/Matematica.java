@@ -7,7 +7,7 @@ public class Matematica {
 		return x + y; 
 	}
 	
-	int somar(int x, int y, int z) {
+	int somar(int x, int y, int z ) {
 		return x+ y + z;
 		
 	}
