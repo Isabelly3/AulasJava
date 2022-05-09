@@ -2,9 +2,13 @@
 public class Cachorro extends Animal {
 
 	@Override
-	public void falar() {
+	public void Falar() {
 		System.out.println("AUAU");
 	}
+	public void Morder() {
+		System.out.println("nhac");
+	}
+	
 	
 
 }
