@@ -1,0 +1,4 @@
+Mouse [funciona=true, qtoBotoes=3, tamaho=pequeno]
+
+Mouse [funciona=true, qtoBotoes=4, tamaho=pequeno]
+Mouse [funciona=true, qtoBotoes=3, tamaho=pequeno]
