@@ -1,0 +1,1 @@
+Mouse [funciona=Sim, qtdBotoes=2, tamanho=Médio]Mouse [funciona=Não, qtdBotoes=3, tamanho=Pequeno]Mouse [funciona=Sim, qtdBotoes=5, tamanho=Grande]
