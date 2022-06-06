@@ -4,25 +4,25 @@ public class calcular {
 
 	public static void main(String[] args) {
 	
-		Scanner scanner =  new Scanner(System.in);
+		Scanner scanner =  new Scanner(System.in);//scanner, usado para entrar informaÃ§Ãµes/dados do usuÃ¡rio 
 		
-		  CalcularArea calculararea=  new CalcularArea();
+		  CalcularArea calculararea=  new CalcularArea(); //instanciando/criando objeto
 		  
-		  System.out.println("Somar dois Números");
-		  System.out.println("Digite o primeiro número");
-		  int x = scanner.nextInt();
+		  System.out.println("Somar dois NÃºmeros");//printar o que vai aparecer na tela (mensagem)
+		  System.out.println("Digite o primeiro nÃºmero");//printar o que vai aparecer na tela (mensagem)
+		  int x = scanner.nextInt();//determinando conforme digitado pelo usuario, o valor de x
 		  
-		  System.out.println("Digite o segundo número");
-		  int y = scanner.nextInt();
+		  System.out.println("Digite o segundo nÃºmero");//printar o que vai aparecer na tela (mensagem)
+		  int y = scanner.nextInt();//determinando conforme digitado pelo usuario, o valor de y
 		  
-		  int soma = matematica.somar(x, y);
-		  System.out.println("o resultado é " + soma + "!!");
+		  int soma = matematica.somar(x, y);//conforme determinado os valores de x e y pelo usuario, o comando matematica.somar vai executar a aÃ§Ã£o(Ssomar)
+		  System.out.println("o resultado Ã© " + soma + "!!");
 		  
 		   soma = matematica.somar(x, y, 5);
-		  System.out.println("o resultado é " + soma + "!!");
+		  System.out.println("o resultado Ã© " + soma + "!!");
 		  
 		  double soma2 = matematica.somar(3.5, 4.2);
-		  System.out.println("o resultado é " + soma2 + "!!");
+		  System.out.println("o resultado Ã© " + soma2 + "!!");
 		  
 	  
 	}
