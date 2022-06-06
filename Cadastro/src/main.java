@@ -10,15 +10,15 @@ public class main {
 		Scanner teclado = new Scanner(System.in);//scanner, usado para entrar informações/dados do usuário 
 		
 
-		for (int x = 0; x < 4; x++) {//nesse caso ele "determina" o numero de cadastro
+		for (int x = 0; x < 4; x++) {//cria um laço de repetição 
 			Pessoa pessoa = new Pessoa(); //instanciando/criando objeto pessoa 
 			pessoa.setEndereco(new Endereco()); //chamando metodo
 			
 			System.out.println("Nome completo"); //printar o que vai aparecer na tela 
-			pessoa.setNome(teclado.next());//chamando metodo scanner  
+			pessoa.setNome(teclado.next());//chamando  scanner  
 			
 			System.out.println("Idade"); //printar o que vai aparecer na tela
-			pessoa.setIdade(teclado.nextInt());//chamando metodo scanner
+			pessoa.setIdade(teclado.nextInt());//chamando scanner
 			
 			System.out.println();
 			
@@ -28,10 +28,10 @@ public class main {
 			System.out.println();//pular linha/dar um espaço
 			
 			System.out.println("Rua:"); //printar o que vai aparecer na tela
-			pessoa.getEndereco().setRua(teclado.next());//chamando metodo scanner
+			pessoa.getEndereco().setRua(teclado.next());//chamando scanner
 			
 			System.out.println("Nº"); //printar o que vai aparecer na tela
-			pessoa.getEndereco().setNumero(teclado.nextInt());//chamando metodo scanner
+			pessoa.getEndereco().setNumero(teclado.nextInt());//chamando o scanner
 			
 			
 			System.out.println("Bairro"); //printar o que vai aparecer na tela
