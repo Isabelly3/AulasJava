@@ -1,9 +1,9 @@
 
 public class Pessoa {
 	
-	private String Nome;
-	private int Idade;
-	private Endereco endereco;
+	private String Nome;//determinando o tipo de variavel do atributo e seu valor
+	private int Idade;//determinando o tipo de variavel do atributo e seu valor
+	private Endereco endereco;//determinando o tipo de variavel do atributo e seu valor
 	
 	
 	public String getNome() {
