@@ -3,45 +3,48 @@ import java.util.Scanner;
 public class CalculadoraTop {
 
 	public static void main(String[] args) {
-		int n1; 
-		int n2; 
+		int n1; //determinando o tipo de variavel do atributo e seu valor
+		int n2; //determinando o tipo de variavel do atributo e seu valor
 		
-		String op = "";
-		int control= 0;
+		String op = "";//determinando o tipo de variavel do atributo e seu valor
+		int control= 0;//determinando o tipo de variavel do atributo e seu valor
 		
-		Scanner entrada = new Scanner(System.in);
-		System.out.println("Digite a operaÁ„o desejada (+, -, *, /):");
+		Scanner entrada = new Scanner(System.in); //criando scanner //scanner, usado para entrar informa√ß√µes/dados do usu√°rio
+		System.out.println("Digite a opera√ß√£o desejada (+, -, *, /):"); //printar o que vai aparecer na tela
 		op = entrada.nextLine(); 
 		
-		System.out.println("Digite um valor:");
+		System.out.println("Digite um valor:");//printar o que vai aparecer na tela
 		n1 = Integer.parseInt(entrada.nextLine());
 		//passar para inteiro oq receber 
 		
 		System.out.println("Digite o segundo valor");
 		n2 = Integer.parseInt(entrada.nextLine());
+		//passar para inteiro oq receber 
 		
+		//SE o usuario escolher"+"
 		if(op.equals("+")) {
-			System.out.println("O resultado da soma È: " + (n1+n2));
+			System.out.println("O resultado da soma √©: " + (n1+n2)); //fazer esse calculo
 			control++;
 		}
-			
+		//SE o usuario escolher"-"	
 		if(op.equals("-")) {
-			System.out.println("O resultado da subtraÁ„o È:" + (n1-n2));
+			System.out.println("O resultado da subtra√ß√£o √©:" + (n1-n2));//fazer esse calculo
 			control++;
 		}
 	
-			
+		//SE o usuario escolher"*"	
 		if(op.equals("*")) {
-			System.out.println("O resultado da multiplicaÁ„o È:" + (n1*n2));
+			System.out.println("O resultado da multiplica√ß√£o √©:" + (n1*n2));//fazer esse calculo
 			control++;
 		}
-			
+		//SE o usuario escolher"/"	
 		if(op.equals("/")) {
-			System.out.println("O resultado da divis„o È:" + (n1/n2));
+			System.out.println("O resultado da divis√£o √©:" + (n1/n2));//fazer esse calculo
 			control++;
 		}
+		//SE for diferente ou igual a 0 
 		if(control == 0) {
-			System.out.println("OperaÁ„o inv·lida, Tente Novamente!");
+			System.out.println("Opera√ß√£o inv√°lida, Tente Novamente!");//aparecer essa mensagem na tela
 		
 		}
 			
