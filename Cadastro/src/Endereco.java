@@ -1,8 +1,8 @@
 
 public class Endereco {
-	private  String Rua;//determinando o tipo de variavel do objeto e seu valor
-	private int Numero;//determinando o tipo de variavel do objeto e seu valor
-	private String Bairro;//determinando o tipo de variavel do objeto e seu valor
+	private  String Rua;//determinando o tipo de variavel do atributo e seu valor
+	private int Numero;//determinando o tipo de variavel do atributo e seu valor
+	private String Bairro;//determinando o tipo de variavel do atributo e seu valor
 	
 	
 	
