@@ -20,7 +20,8 @@ public class main {
 		
 		
 		
-		List < Mouse > listaMouse = new ArrayList < Mouse > ();
+		List < Mouse > listaMouse = new ArrayList < Mouse > (); //cria arraylist mouse
+		
 				
 		Mouse mouse1 = new Mouse (true, 3, "pequeno");
 		
