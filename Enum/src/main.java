@@ -14,21 +14,22 @@ public class main {
 
 	public static void main(String[] args) {
 		
-		double pi = main.PI;
+		double pi = main.PI;// declarando que a constante vai ser guardada en um lugar
 		DiaDaSemana hoje = DiaDaSemana.Segunda;
 		
-		int num = DiaDaSemana.Segunda.getNum();
-		System.out.println(num);
+		int num = DiaDaSemana.Segunda.getNum(); // guarda o dia da semana 
+		System.out.println(num); //variavel num= segunda
 		
-		String s = "Terca";
+		String s = "Terca"; // s = lugar onde esta a terça
 		
-		hoje = DiaDaSemana.valueOf(s);
+		hoje = DiaDaSemana.valueOf(s); // vai no enum e proucura "hoje" que esta dentro do s, que nesse caso seria uma terça-feira
 		
 		
-		System.out.println(hoje.getNum());
+		System.out.println(hoje.getNum()); //mostra no console que hoje é terça
 		
-		Sexo sexo = Sexo.FEMININO;
-		sexo = sexo.MASCULINO;
+		Sexo sexo = Sexo.FEMININO; //determina sexo fem
+		
+		sexo = sexo.MASCULINO;//determina sexo masc
 	}
 	
 
