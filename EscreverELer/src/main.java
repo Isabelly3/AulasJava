@@ -16,7 +16,7 @@ public class main {
 		String string = scanner.nextLine();
 		
 		 try (BufferedWriter escrever =  new BufferedWriter(new FileWriter("saida.txt"))){
-             escrever.write(string); //escrevendo txt e designando o o livar para onde ele vai
+             escrever.write(string); //escrevendo txt e designando o o livar para onde ele vai ee o que esta dentro
 		 }
              
              try(BufferedReader reader = new BufferedReader(new FileReader("saida.txt"))){ //lendo txt
