@@ -16,18 +16,18 @@ public class main {
 		String string = scanner.nextLine();
 		
 		 try (BufferedWriter escrever =  new BufferedWriter(new FileWriter("saida.txt"))){
-             escrever.write(string); //escrevendo txt e designando o o livar para onde ele vai ee o que esta dentro
+             escrever.write(string); //proucura aquivo "saida.txt"escrevendo txt e designando o o livar para onde ele vai ee o que esta dentro
 		 }
              
-             try(BufferedReader reader = new BufferedReader(new FileReader("saida.txt"))){ //lendo txt
+             try(BufferedReader reader = new BufferedReader(new FileReader("saida.txt"))){ //proucura aquivo "saida.txt" 
      			
      			String line;
      			String string2 = "";
      			
      			while ((line = reader.readLine())!= null) {
-     				string2 += line + "\n";
+     				string2 += line + "\n"; //lê arquivo txt
      			}
-     			System.out.println(string2);
+     			System.out.println(string2); // imprime no console o que tem dentro do arquivo
 		
 		
              }	
