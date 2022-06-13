@@ -20,31 +20,32 @@ public class main {
 			// System.out.println(b);
 
 //			//int idadePessoa = 10;
-	//
+	//criando uma variavel e dando seu valor, 18, e declarando que SE a a idade for menor que 18 a pessoa n√£o pode beber
 //			//if (idadePessoa < 18) {
-//				//System.out.println("VocÍ n„o pode beber");
+//				//System.out.println("Voc√™ n√£o pode beber");
 //			//}
 	//
-//			//else if (idadePessoa < 60) { //de uma condiÁ„o
+//			//else if (idadePessoa < 60) { //de uma condi√ß√£o
 //			//	System.out.println("Bora tomar uma");
 //			}else {
 //				System.out.println("Vai dormir idoso!");
 //			}
 	//
-//			System.out.println("VocÍ tem " + idadePessoa + " anos");
+//			System.out.println("Voc√™ tem " + idadePessoa + " anos");
 			
 //			
 //			int diasSemana = 8;
-	//
-//			 switch(diasSemana) {
-//			 	case 1 :
-//			 		System.out.println("Domingo");
-//			 		break;
+	//Switch(caso)
+		
+//			 switch(diasSemana) { // determinando o valor de cada caso ex.
+//			 	case 1 : //se a pessoa digitar 1
+//			 		System.out.println("Domingo"); //aparecer√° domingo na tela           
+//			 		break; 
 //			 	case 2:
 //			 		System.out.println("Segunda");
 //			 		break;
 //			 	case 3:
-//			 		System.out.println("TerÁa");
+//			 		System.out.println("Ter√ßa");
 //			 		break;
 //			 	case 4:
 //			 		System.out.println("Quarta");
@@ -56,10 +57,10 @@ public class main {
 //			 		System.out.println("Sexta");
 //			 		break;
 //			 	case 7:
-//			 		System.out.println("S·bado");
+//			 		System.out.println("S√°bado");
 //			 		break;
 //			 	default:
-//			 		System.out.println("Esse n˙mero n„o representa um dia da semana");
+//			 		System.out.println("Esse n√∫mero n√£o representa um dia da semana");
 //			 	
 //		}
 			
@@ -73,13 +74,13 @@ public class main {
 //					
 //					switch(caractere) {
 //					case'a':
-//						System.out.println("Seu caractere È a");
+//						System.out.println("Seu caractere √© a");
 //						break;
 //					case 'b':
-//						System.out.println("Seu caractere È b");
+//						System.out.println("Seu caractere √© b");
 //						break;
 //					default:
-//						System.out.println("Valor inv·lido");
+//						System.out.println("Valor inv√°lido");
 //						
 //					}
 	//
@@ -99,7 +100,7 @@ public class main {
 //				System.out.println("Celera mas agora legalmente");
 //				break;
 //				default:
-//					System.out.println("CÍ È burro?");
+//					System.out.println("C√™ √© burro?");
 //			}}}
 			
 			
@@ -117,7 +118,7 @@ public class main {
 			int total = 0;
 			
 			Scanner ler = new Scanner(System.in);
-			System.out.println("Informe um n˙mero: ");
+			System.out.println("Informe um n√∫mero: ");
 			valorUsuario = ler.nextInt();;
 			
 			for (int x = 0; x<10; x++) {
